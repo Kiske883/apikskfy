@@ -7,8 +7,7 @@ app.use(express.json());
 app.use(cors());
 
 // Route configuration
-// Ex.
-// app.use('/api', require('./routes/api.routes'));
+app.use('/apikskfy', require('./routes/apikskfy.js'));
 
 // 404 handler
 app.use((req, res, next) => {
